@@ -1,0 +1,92 @@
+h1{
+    font-size: 60px;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-weight: bold;
+    font-family: cursive;
+}
+.body{
+   background-color: rgb(137, 154, 168);
+}
+.container{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+h3{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: cursive;
+}
+.left{
+    width: 40%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    align-items: center;
+    padding-bottom: 10%;
+}
+.dice1{
+    height: 100%;
+    width: 50%;
+    background-color: brown;
+    border-radius: 10%;
+    position: relative;
+    left: 0px;
+    top: 0px;
+}
+.right{
+    width: 40%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+    align-items: center;
+    padding-bottom: 10%;
+}
+.white{
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    border-radius: 50%;
+}
+.one{
+    position: absolute;
+    left: 30px;
+    top: 15px;
+}
+.two{
+    position: absolute;
+    right: 30px;
+    top: 15px;
+}
+.three{
+    position: absolute;
+    left: 30px;
+    top: 100px;
+}
+.four{
+    position: absolute;
+    right: 30px;
+    top: 100px;
+}
+.five{
+    position: absolute;
+    left: 30px;
+    top: 180px;
+}
+.six{
+    position: absolute;
+    right: 30px;
+    top: 180px;
+}
+.twomiddle{
+    position: absolute;
+    top: 38%;
+    left: 40%;
+}
